@@ -9,13 +9,14 @@ import Pillow from "../assets/pillow-72a0f928.png"
 
 
 import { Button } from "antd"
+import Footer from "../components/Footer"
 
 
 const Home = () => {
   return (
     <>
       <Header/>
-      <div className="w-full bg-[#e5e7eb]">
+      <div className="w-full bg-[#f4f5f7]">
       <div className="container px-3 mx-auto grid md:grid-cols-2 gap-3 py-10">
           <iframe className=" rounded-xl" width="100%" height="400" src="https://www.youtube.com/embed/mnKQa3ow4CY?si=-34WlPhz7YlfbX9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           <iframe className=" rounded-xl" width="100%" height="400" src="https://www.youtube.com/embed/kGD-hYg4ITY?si=vn0LISnmP02wZ2zJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -38,7 +39,7 @@ const Home = () => {
                 <p className="text-[rgb(165_170_180)]">If you receive a call from an unscrupulous scammer or encounter unpleasant software errors, please contact our call center. We are always in touch!</p>
             </div>
       </div>
-      <div className="w-full bg-[#e5e7eb]">
+      <div className="w-full bg-[#f4f5f7]">
           <div className="container mx-auto px-3 py-10 grid md:grid-cols-2">
             <div className="flex justify-center items-center">
               <div>
@@ -52,6 +53,8 @@ const Home = () => {
             </div>
           </div>
       </div>
+
+      <Footer/>
     </>
   )
 }

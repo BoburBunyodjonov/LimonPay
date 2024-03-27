@@ -51,13 +51,13 @@ const Navbar = () => {
           menu={{
             items,
             selectable: true,
-            defaultSelectedKeys: ['2'],
+            defaultSelectedKeys: ['0'],
           }}
           trigger={["click"]}
         >
           <a  onClick={(e) => e.preventDefault()}>
             <Space className="text-white border border-[rgb(43_43_48)] p-2 rounded-md">
-              O`zbekcha
+              English
               <DownOutlined />
             </Space>
           </a>
