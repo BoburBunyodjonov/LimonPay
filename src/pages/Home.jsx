@@ -1,4 +1,5 @@
 import Header from "../components/Header"
+import "./home.css"
 
 // Images
 import RocketImg from "../assets/rocket.png"
@@ -7,12 +8,16 @@ import TransferImg from "../assets/transfer.png"
 import Pillow from "../assets/pillow-72a0f928.png"
 
 
-
 import { Button } from "antd"
 import Footer from "../components/Footer"
+import { Slider } from "../components/Slider"
+import ExchangeRateChart from "../components/ExchangeRateChart"
+
 
 
 const Home = () => {
+
+
   return (
     <>
       <Header/>
@@ -53,6 +58,11 @@ const Home = () => {
             </div>
           </div>
       </div>
+
+      <ExchangeRateChart/>
+      {/* <PaymentForm/> */}
+      
+      <Slider/>
 
       <Footer/>
     </>
