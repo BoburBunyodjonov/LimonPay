@@ -16,19 +16,19 @@ const Navbar = () => {
 
   const items = [
     {
-      label: <a href="https://www.antgroup.com">English</a>,
+      label: <Link>English</Link>,
       key: '0',
     },
     {
-      label: <a href="https://www.aliyun.com">Russian</a>,
+      label: <Link>Russian</Link>,
       key: '1',
     },
     {
-      label: <a href="https://www.aliyun.com">O`zbekcha</a>,
+      label: <Link>O`zbekcha</Link>,
       key: '2',
     },
     {
-      label: <a href="https://www.aliyun.com">Qoraqalpoq</a>,
+      label: <Link>Qoraqalpoq</Link>,
       key: '3',
     }
   ];
